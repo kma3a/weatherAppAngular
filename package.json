@@ -1,0 +1,13 @@
+{
+  "name": "testApp",
+  "version": "0.0.1",
+  "scripts": {},
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.20",
+    "angular": "1.4.7",
+    "angular-mocks": "1.4.7",
+    "angular-sanitize": "1.4.7",
+    "angular-touch": "1.4.7"
+  },
+  "devDependencies": {}
+}

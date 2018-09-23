@@ -11,13 +11,21 @@
   Configuration.$inject = ["$stateProvider", "$urlRouterProvider"];
 
   function Configuration($stateProvider, $urlRouterProvider) {
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/currentTemp');
     $stateProvider
-      .state('home', {
-        url: '/home',
-        templateUrl: "./views/home.html",
-        controller:"homeCtrl",
-        controllerAs: "home"
+      .state('currentTemp', {
+        url: '/currentTemp',
+        templateUrl: "./views/currentTemp.html",
+        controller:"currentTempCtrl",
+        controllerAs: "currentTemp"
+      })
+      .state('fiveDay', {
+        url: '/fiveDay',
+        templateUrl: "./views/fiveDay.html",
+        controller:"fiveDayCtrl",
+        controllerAs: "fiveDay"
       });
+
+
   }
 })();

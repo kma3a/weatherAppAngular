@@ -7,4 +7,4 @@
       var home = this;
       home.message = "Hello World! I am here!";
     }
-})(angular.module('testApp'));
+})(angular.module('weatherApp'));

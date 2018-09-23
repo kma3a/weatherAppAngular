@@ -1,11 +1,11 @@
 (function(){
  'use strict';
-  angular.module('testApp',[
+  angular.module('weatherApp',[
     'ui.router',
     'ngSanitize'
   ]);
 
-  angular.module('testApp').config(Configuration);
+  angular.module('weatherApp').config(Configuration);
 
   Configuration.$inject = ["$stateProvider", "$urlRouterProvider"];
 

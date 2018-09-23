@@ -2,7 +2,8 @@
  'use strict';
   angular.module('weatherApp',[
     'ui.router',
-    'ngSanitize'
+    'ngSanitize',
+    'weatherApp.service'
   ]);
 
   angular.module('weatherApp').config(Configuration);

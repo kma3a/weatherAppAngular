@@ -2,9 +2,9 @@
   'use strict';
   app
     .controller("homeCtrl", _controller);
-    _controller.$inject = [];
-    function _controller(){
+    _controller.$inject = ['weatherService'];
+    function _controller(weatherService){
       var home = this;
-      home.message = "Hello World! I am here!";
+      home.message = "This is the weather app";
     }
 })(angular.module('weatherApp'));
